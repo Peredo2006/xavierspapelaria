@@ -414,7 +414,7 @@ if (isset($_GET['excluir'])) {
                         
                         <div class="mb-3">
                             <label for="cpf" class="form-label">CPF <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="cpf" name="cpf" required>
+                            <input type="text" class="form-control" id="cpf" name="cpf">
                         </div>
                         
                         <div class="mb-3">
@@ -595,4 +595,5 @@ if (isset($_GET['excluir'])) {
         });
     </script>
 </body>
+
 </html>
